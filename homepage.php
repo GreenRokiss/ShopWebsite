@@ -64,7 +64,7 @@
           </div>
           <div id = "posts">
           <?php 
-$mysqli = new mysqli('localhost','3700262@localhost','','my_webdevkieransoutter'); 
+$mysqli = new mysqli('localhost','root','','homepagedb'); 
 $query = "SELECT * FROM posts ORDER BY timestamp DESC;";
 
 

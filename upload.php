@@ -7,7 +7,7 @@ $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
 //Connect to DataBase
-$db = mysqli_connect('localhost','3700262@localhost','','my_webdevkieransoutter');
+$db = mysqli_connect('localhost','root','','homepagedb');
 
 
 // Check if image file is a actual image or fake image
