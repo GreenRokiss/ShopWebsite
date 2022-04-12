@@ -77,7 +77,7 @@ if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) {
         $field1name = $row["timestamp"];
         $field2name = $row["image"];
-        $field3name = $row["Caption"];
+        $field3name = $row["caption"];
 
         echo '<div style = "position:relative; left:10%; top:10%;"> 
         <br>
