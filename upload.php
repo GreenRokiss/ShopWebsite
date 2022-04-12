@@ -50,7 +50,7 @@ if ($uploadOk == 0) {
   			  VALUES('$filename', '$caption')";
   if (mysqli_query($db, $query)) {
     echo "The post ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
-   	echo '<a href="http://localhost/homepage.php">Click here to return to homepage</a>';
+   	echo '<a href="http://127.0.0.1:8000/homepage.php">Click here to return to homepage</a>';
   } else {
     echo "Sorry, there was an error uploading your post.";
   }
