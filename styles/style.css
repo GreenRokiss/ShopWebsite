@@ -1,0 +1,71 @@
+;body{
+    background-image:url('unicornride500.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+#header {
+  background-image:url('http://webdevkieransoutter.altervista.org/styles/unicornride500.gif');
+  background-size: cover;
+  height: 10%;
+  width: 100;
+  border: 10% solid #FDD617;
+}
+img {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+  background-color: #FC1D70;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+input{
+  width: 35%;
+  height: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px #FDD617;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FC1D70;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FED517;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
