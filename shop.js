@@ -45,7 +45,6 @@ function onLoadCartNumbers()
 
 function cartNumbers(product)
 {
-    //console.log("The product clicked is", product);
     let productNumbers = localStorage.getItem('cartNumbers');
 
     productNumbers = parseInt(productNumbers);
@@ -124,16 +123,16 @@ function displayCart()
             <div class="product">
                 <ion-icon name="close-circle"></ion-icon>
                 <img src="./assets/shop/${item.tag}.jpg" class="image">
-                <span>${item.name}</span>
+                <span >${item.name}</span>
             </div>
             <div class = "price">£${item.price},00</div>
+            
             <div class = "quantity">
-                <ion-icon class = "decrease" name="arrow-back-circle"></ion-icon>
-                <span>${item.inCart}</span>
-                <ion-icon class = "increase" name="arrow-forward-circle"></ion-icon>
+                <input type="number" class="quantity_number" value="${item.inCart}" />
             </div>
+            
             <div class = "total">
-                £${item.inCart * item.price},00
+                £ ${item.inCart * item.price},00
             </div>
 
             `
