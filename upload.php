@@ -1,6 +1,6 @@
 <?php
 echo php_ini_loaded_file();
-$file_uploads = On;
+$file_uploads = "On";
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
@@ -50,7 +50,7 @@ if ($uploadOk == 0) {
   			  VALUES('$filename', '$caption')";
   if (mysqli_query($db, $query)) {
     echo "The post ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
-   	echo '<a href="http://webdevkieransoutter.altervista.org/homepage.php">Click here to return to homepage</a>';
+   	echo '<a href="http://localhost/homepage.php">Click here to return to homepage</a>';
   } else {
     echo "Sorry, there was an error uploading your post.";
   }

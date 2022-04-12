@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="assets/LOGONoBackground.ico"/>
-    <title>Knit-It</title>
+    <title>Knit-For-My-Pet</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
